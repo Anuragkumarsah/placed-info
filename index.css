@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.left > h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #263238;
+    font-family: 'Itim', cursive;
+}
+
+.left > p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #263238;
+    font-family: 'Itim', cursive;
+}
+
+.left > form > label {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #263238;
+    font-family: 'Itim', cursive;
+}
+
+.left > form {
+    width: 100%;
+    display: flex;
+    margin: 1rem 2rem 1rem 0;
+    flex-direction: column;
+}
+
+.left > form > input, .left > form > textarea {
+    width: max-content;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #263238;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: 'Itim', cursive;
+}
+
+.left > form > textarea {
+    height: 10rem;
+}
